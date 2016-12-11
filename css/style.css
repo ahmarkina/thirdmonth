@@ -1,0 +1,411 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+p, h1, h2 ,h3 ,h4 ,h5 ,h6, ul, li, a, span, button, figure, body {
+    margin: 0;
+    padding: 0;
+    font-family: MyriadProRegular;
+}
+
+body {
+    background-color: black;
+}
+
+.leftPanel {
+    float: left;
+    width: 9%;
+    margin: 0px 46px;
+}
+
+.leftPanel img {
+    width:100%;
+}
+
+.wrapper {
+    overflow: hidden;
+    width:80%;
+    background-color: white;
+    margin:46px;
+}
+
+.headreMiddleLine {
+    width: 94%;
+    margin:auto;
+    padding:15px 0px;
+}
+
+.headreMiddleLine__logoBlock {
+    display: inline-block;
+    width:33%;
+    vertical-align: middle;
+}
+
+.headreMiddleLine__logoBlock .text_block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headreMiddleLine__logoBlock img {
+    display: inline-block;
+    vertical-align: middle;
+    width:96px;
+
+}
+
+.headreMiddleLine__logoBlock div:first-child {
+    font-family: MyriadProBold;
+    font-size: 16px;
+}
+
+.headreMiddleLine__logoBlock div:nth-child(2) {
+    color: #A9A9A9;
+    font-size: 12px;
+}
+
+.headreMiddleLine__searchBlock {
+    display: inline-block;
+    width:31%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.search_button {
+    background-color: #FF0000;
+    display: inline-block;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.search_button img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headreMiddleLine__searchBlock input {
+    width: 73% ;
+    background-color: #F2F2F2;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    padding:5px;
+    font-size: 16px;
+}
+
+.headreMiddleLine__cartBlock {
+    display: inline-block;
+    width:35%;
+    vertical-align: middle;
+}
+.cart_block_wrapper {
+    float: right;
+}
+.text_block2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.headreMiddleLine__cartBlock img {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.header_bottom_line {
+    background-color: #FF0000;
+}
+
+nav {
+    margin: auto;
+    width: 94%;
+}
+
+nav li {
+    display: inline-block;
+    width: 24.6%;
+    height: 45px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    vertical-align: middle;
+    line-height: 45px;
+}
+
+nav ul {
+    background-color: red;
+    list-style-type: none;
+}
+
+.sale__saleLine {
+    width: 94%;
+    margin: auto;
+    padding: 10px 0px;
+    color: white;
+}
+
+.sale__saleLine h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sale__saleLine div {
+    display: inline-block;
+    box-sizing: border-box;
+    margin:10px;
+    width:calc(33% - 20px);
+    background-color: #FF0000;
+    text-align: center;
+}
+
+.sale__saleLine span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sale__saleLine a {
+    color: white;
+    padding:10px 0px;
+    display: block;
+}
+
+.products {
+    width:94%;
+    margin: auto;
+}
+
+.products__productItem {
+    display: inline-block;
+    width:calc(24.6% - 10px);
+    vertical-align: top;
+    margin: 10px 0px 10px 10px;
+}
+
+.picture_image {
+    float: left;
+    width: 79%;
+    border:1px solid gainsboro;
+    padding: 0px 10px;
+    box-sizing: border-box;
+ }
+
+.picture_image img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.picture_image h3 {
+    color: darkgrey;
+    font-size: 16px;
+    padding:5px 0px;
+}
+
+.picture_image span {
+    color: darkgrey;
+    font-size: 10px;
+}
+
+.picture_image span:last-child {
+    color: #FF0000;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.product_actions {
+    float: right;
+    width: 20%;
+}
+.product_actions img {
+    display: block;
+    width: 100%;
+    border:1px solid gainsboro;
+}
+
+.picture_image span {
+    display: block;
+    text-align: left;
+}
+
+.picture_image .image img {
+    display: block;
+    margin: 20px 0px 30px 0px ;
+}
+
+
+
+.headerTopLine__socialBlock {
+    float: left;
+}
+
+.headerTopLine__loginBlock {
+    float: right;
+    font-size: 10pt;
+    color: #A9A9A9;
+}
+
+.headerTopLine__loginBlock img, span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headerTopLine {
+    width: 94%;
+    margin:auto;
+    padding:10px 0px;
+}
+
+.headerTopLine a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header:before {
+    display: block;
+    content: "";
+    border-top: 1px solid #A9A9A9;
+    height: 0.5px;
+}
+aside {
+    background-color: black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.menu_line {
+    width: 94%;
+    margin: auto;
+    background-color: black;
+}
+
+.menu_line div {
+    display: inline-block;
+    width:24.5%;
+    color: white;
+    vertical-align: top;
+}
+
+.menu_line a {
+    text-decoration: none;
+    color: white;
+}
+ .menu_line ul {
+     list-style-type: none;
+     padding: 10px 0px;
+ }
+
+ .menu_line h2 {
+     padding: 15px 0px;
+ }
+
+ .menu_line div:last-child span {
+     font-size: 20px;
+     padding: 5px 0px;
+ }
+
+.item {
+     width: 94%;
+     margin: auto;
+ }
+
+.item .item__description {
+     display: inline-block;
+ }
+
+.item #customStyle {
+     display: inline-block;
+     width: 30%;
+     padding: 30px 60px;
+     border-right: 1px solid #A9A9A9;
+ }
+
+footer span {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+footer {
+    background-color: black;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+}
+
+
+
