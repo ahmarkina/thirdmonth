@@ -317,9 +317,19 @@ nav ul {
     color: #A9A9A9;
 }
 
-.headerTopLine__loginBlock img, span {
+.headerTopLine__loginBlock img, span, a {
     display: inline-block;
     vertical-align: middle;
+}
+
+.headerTopLine__loginBlock a {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+.headerTopLine__loginBlock a:hover {
+    color: black;
+    font-weight: bold;
 }
 
 .headerTopLine {
@@ -373,6 +383,7 @@ aside {
  .menu_line div:last-child span {
      font-size: 20px;
      padding: 5px 0px;
+     display: block;
  }
 
 .item {
@@ -434,7 +445,6 @@ footer span {
     padding-top: 30px;
     padding-bottom: 10px;
     color: white;
-
 }
 
 footer {
