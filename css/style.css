@@ -381,8 +381,46 @@ aside {
  }
 
 .item .item__description {
-     display: inline-block;
+    float: right;
+     width: 50%;
+     padding: 50px 0px 10px 0px;
  }
+
+.item .item__description h2 {
+    font-size: 30px;
+    color: gray;
+}
+
+.item .item__description h3 {
+    color: #FF0000;
+    font-size: 14px;
+}
+
+.item .item__description span {
+    font-size: 12px;
+}
+
+.item button:hover {
+    background-color: #FF0000; /* Green */
+    border: none;
+    color: white;
+}
+
+.item button {
+    background-color: white;
+    color: black;
+    border: 1px solid #FF0000;
+    border-radius: 2px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
 .item #customStyle {
      display: inline-block;
@@ -406,6 +444,22 @@ footer {
     border-right: 1px solid white;
     text-align: center;
 }
+
+.owl-carousel .owl-item img {
+    width: 50%;
+    display: inline-block;
+}
+
+.owl-carousel .owl-item .itemImage {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding:20px 0px 10px 0px;
+    box-sizing: border-box;
+
+}
+
+
 
 
 
