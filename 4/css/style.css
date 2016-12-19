@@ -265,7 +265,7 @@
 .header__search input[type="search"] {
     border: none;
     outline: none;
-    vertical-align: middle;
+    vertical-align: top;
     width: 85%;
     height: 33px;
     border-radius: 10px;
