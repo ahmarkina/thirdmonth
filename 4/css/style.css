@@ -374,13 +374,15 @@
 }
 
 .slider__redBox span {
-    line-height: 60px;
+    /*line-height: 60px;*/
     font-size: 48px;
     font-weight: bold;
+    font-family: "Arial";
+    line-height: 1.4;
 }
 
 .slider span {
-    font-size: 60px;
+
 }
 
 .slider__2ndLine {
@@ -400,6 +402,7 @@
 .slider__Butiful {
     color: white;
     margin-left: 95px;
+    font-size: 60px;
 }
 
 .owl-carousel .item {
