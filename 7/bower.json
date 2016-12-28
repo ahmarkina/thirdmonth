@@ -1,0 +1,19 @@
+{
+  "name": "7",
+  "homepage": "https://github.com/ahmarkina/thirdmonth",
+  "authors": [
+    "anastasia.markina <ahmarkina@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ]
+}
