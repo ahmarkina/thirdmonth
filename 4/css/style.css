@@ -1,3 +1,7 @@
+/* * {
+    box-sizing: border-box;
+}*/
+
 .wrapper {
     display: -webkit-box;
     display: flex;
@@ -444,5 +448,122 @@
     }
 }
 
+.Items {
+    display: flex;
+    padding:40px 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../Pictures/BGColor.png");
+    position: relative;
+}
 
+.Items:after {
+    content: "";
+    display: block;
+    border: 3px solid #A9A9A9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
 
+.Items__Item {
+    flex-basis: 24%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 250px;
+    position: relative;
+}
+
+.Items__Item:after {
+    content: url("../Pictures/Sale_stamp.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Items__Item:before {
+    content: "";
+    background-image: url("../Icons/cart_icon.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+
+.Items__Item img {
+    width: 100%;
+    border: 6px solid #595959 ;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.Items__capture {
+    display: flex;
+    padding: 10px;
+    background-color: #ACACAC;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.Items__newPrice {
+    font-size: 24px;
+    font-family: "Cambria";
+    color: #ff3333;
+    text-transform: uppercase;
+    line-height: 1.25;
+    align-self: flex-start;
+}
+
+.Items__oldPrice {
+    font-size: 24px;
+    font-family: "Cambria";
+    color: #666666;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    line-height: 1.25;
+    align-self: flex-end;
+}
+
+.AddInfo {
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px 50px;
+    background-color: #707070;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.AddInfo:after {
+    content: "";
+    display: block;
+    border: 3px solid red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.AddInfo__Col {
+    flex-basis: 25%;
+    min-width: 250px;
+}
+
+.AddInfo__Col p {
+    font-size: 22px;
+    font-family: "Cambria";
+    color: #515151;
+    font-weight: bold;
+    line-height: 1.636;
+}
+
+.AddInfo__Col a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Cambria";
+    color: white;
+    line-height: 1.5;
+}
