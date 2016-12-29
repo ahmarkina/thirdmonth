@@ -177,6 +177,7 @@
 .wrap_header {
     display: -webkit-box;
     display: flex;
+    min-height: 100px;
 }
 
 .header {
@@ -190,16 +191,29 @@
     width: 100%;
 }
 
+.wrap_headerRight {
+    display: flex;
+    min-height: 100px;
+    width: 75%;
+}
+
+.wrap_headerLeft {
+    display: flex;
+    min-height: 100px;
+    width: 25%;
+}
+
 .header__right {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     color: white;
     padding-right: 30px;
     min-height: 100px;
+
 }
 
 .header__top img {
